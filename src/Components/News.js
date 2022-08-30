@@ -1,5 +1,4 @@
 import React from "react";
-import "./App.css";
 import moment from "moment";
 const News = (props) => {
 	return props.url ? (

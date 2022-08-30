@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { useLocation } from "react-router-dom";
 import News from "./News";
-import Services from "./Services";
+import Services from "../Services/Services";
 const Home = () => {
 	let location = useLocation().pathname.slice(1);
 	const [news, setNews] = useState(null);
